@@ -73648,3 +73648,43 @@
 	d844fc49-8a9a-4517-9b2d-66eac92d32de	OPTIONS	http://localhost:5173	/adminAuth
 030223	20:04:01
 	2857728a-0077-4d5e-a117-a1e1ef3bbe87	POST	http://localhost:5173	/adminAuth
+050223	07:09:48
+	1beced47-bff8-40cb-95ca-267a169beb5a	OPTIONS	http://localhost:5173	/adminAuth
+050223	07:09:48
+	826ad02d-b199-409c-bfdb-53377812098f	POST	http://localhost:5173	/adminAuth
+050223	07:09:51
+	992b35cb-4130-4c49-be90-a4751f4cc1e5	GET	http://localhost:5173	/students/GNPAP230038
+050223	07:09:51
+	00c4eaea-ecd6-43f5-a7ac-133e687a6d68	GET	http://localhost:5173	/students/GNPAP230038
+050223	07:10:36
+	74a1abd3-9c89-4860-afd6-42ee9f088ee8	OPTIONS	http://localhost:5173	/adminAuth
+050223	07:10:36
+	5804497d-66e9-4a07-b145-4d2ddfa8c6ba	POST	http://localhost:5173	/adminAuth
+050223	07:10:46
+	3d1a8abb-e9fc-4a38-9cd0-d53f7eafa176	GET	http://localhost:5173	/students/GNPAP230038
+050223	07:10:46
+	14d28fdb-7a15-46c1-97c6-d69ed83ffdb7	GET	http://localhost:5173	/students/GNPAP230038
+050223	07:10:49
+	ebf4005d-ab89-4c8f-b1e7-7ee95e2abeb1	OPTIONS	http://localhost:5173	/results/GNPAP230038
+050223	07:10:49
+	8b05ee68-b379-4235-924c-df02e5a38b46	PUT	http://localhost:5173	/results/GNPAP230038
+050223	07:10:51
+	df463ccb-8005-4047-8678-c6a17dcc1454	GET	http://localhost:5173	/students/null
+050223	07:10:51
+	42b19069-bbcb-4c70-acaf-9b12d8b5d5fc	GET	http://localhost:5173	/students/null
+050223	16:38:52
+	8b482edf-d5b4-4a01-903e-5a0306683e21	GET	http://localhost:5173	/students/null
+050223	16:38:52
+	b60739d4-9c51-42cc-b014-6fc0a00d2748	GET	http://localhost:5173	/students/null
+050223	16:38:59
+	2a20159e-4c14-486d-a887-48990377b39f	OPTIONS	http://localhost:5173	/results/null
+050223	16:38:59
+	25391d29-8ee0-4cc1-97b7-376883d506f2	PUT	http://localhost:5173	/results/null
+050223	16:39:04
+	a34392af-8eb7-4786-acd8-258873d79bdd	GET	http://localhost:5173	/students/null
+050223	16:39:04
+	14dd6103-cb23-4d39-bc58-69dbc452a250	GET	http://localhost:5173	/students/null
+050223	16:39:24
+	60010692-1f32-41bc-a19e-95affdf61d76	OPTIONS	http://localhost:5173	/examAuth
+050223	16:39:24
+	d2d35d88-d9bb-4516-bbac-6ef1c6c9a272	POST	http://localhost:5173	/examAuth
