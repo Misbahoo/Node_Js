@@ -73688,3 +73688,29 @@
 	60010692-1f32-41bc-a19e-95affdf61d76	OPTIONS	http://localhost:5173	/examAuth
 050223	16:39:24
 	d2d35d88-d9bb-4516-bbac-6ef1c6c9a272	POST	http://localhost:5173	/examAuth
+050223	16:52:04
+	6388085b-f252-4a1f-878c-5cc0a26f8e60	OPTIONS	http://localhost:5173	/adminAuth
+050223	16:52:04
+	56bef6d4-01dd-450a-a777-d046e59da8bd	POST	http://localhost:5173	/adminAuth
+050223	16:52:22
+	57891f07-38b1-432a-a83f-76866f2f5847	OPTIONS	http://localhost:5173	/adminAuth
+050223	16:52:22
+	db4dde41-6ecb-4cef-bdd6-3b9ef90e6885	POST	http://localhost:5173	/adminAuth
+050223	16:52:32
+	55aa8710-1256-40ce-abf0-a396d128892b	OPTIONS	http://localhost:5173	/adminAuth
+050223	16:52:32
+	e825f564-5aa8-4e69-b170-b66af9a465a5	POST	http://localhost:5173	/adminAuth
+050223	16:52:34
+	394bcb78-3525-4194-9754-0eb35ab36487	GET	http://localhost:5173	/students/null
+050223	16:52:34
+	bf521e0a-4f78-4d72-bd48-0419dd568fc1	GET	http://localhost:5173	/students/null
+050223	16:52:40
+	097d65c7-537f-4107-8d55-1ace3d2856f8	GET	http://localhost:5173	/students
+050223	18:40:36
+	b634d155-e797-4a24-96a8-3f458db2bbee	OPTIONS	http://localhost:5173	/adminAuth
+050223	18:40:36
+	63fe01db-596a-422f-ae23-184153f869a1	POST	http://localhost:5173	/adminAuth
+050223	18:40:55
+	8fa6ecaa-fa27-45af-a1d3-eb0565fc0ab1	OPTIONS	http://localhost:5173	/examAuth
+050223	18:40:55
+	f4b35b1d-4821-4fb6-9606-18628809690b	POST	http://localhost:5173	/examAuth
