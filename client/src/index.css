@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply rounded-md p-3 outline-none border border-yellow-500 mx-auto focus:bg-yellow-200;
+}
+
+.btn {
+  @apply bg-yellow-600 w-2/4 p-3 rounded-sm text-white hover:bg-yellow-700 transition duration-300;
+}
+.btnExam {
+  @apply bg-green-600 rounded-sm text-white hover:bg-green-700 transition duration-300;
+}
+
+/* table,
+th,
+td {
+  border: 1px solid #999;
+} */
+td {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background: rgb(230, 230, 230);
+}

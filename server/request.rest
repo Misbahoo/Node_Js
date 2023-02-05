@@ -1,0 +1,33 @@
+GET http://localhost:3500/students
+Content-Type: "application/json"
+
+
+###
+
+GET http://localhost:3500/students/5
+Content-Type: "application/json"
+
+###
+
+POST http://localhost:3500/students
+Content-Type : "application/json"
+
+{
+    "firstName": "abubakar",
+    "secondName": "isah"
+}
+
+###
+
+PUT http://localhost:3500/students
+Content-Type: "application/json"
+
+{"id": 2, "firstName": "badamasi"}
+
+
+###
+
+DELETE http://localhost:3500/students
+Content-Type: "application/json"
+
+{"id": 2}

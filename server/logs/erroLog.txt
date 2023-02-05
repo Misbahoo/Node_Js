@@ -1,0 +1,89 @@
+200123	01:07:12
+	b517be56-e871-4837-82bf-2161b70cafe2	Error Not Allowed By Cors
+200123	01:14:44
+	53476a71-d897-4e4b-b6ac-01d501d0a820	ReferenceError sendFile is not defined
+200123	07:04:21
+	cca08dab-008a-48a3-860a-e5c732ff7ffa	Error ENOENT: no such file or directory, stat '/Users/mac/Desktop/Node_Js/router/index.html'
+200123	07:04:22
+	21d4e307-a282-4f6e-b579-f8161c34de28	Error ENOENT: no such file or directory, stat '/Users/mac/Desktop/Node_Js/router/index.html'
+200123	19:53:36
+	64acdd8f-5fc7-4570-b0fa-5e3af11d139d	TypeError Cannot read properties of undefined (reading 'id')
+200123	20:19:37
+	b556e1a5-a1de-40ca-965e-c2f1972b7b7e	TypeError Cannot read properties of undefined (reading 'id')
+200123	20:21:18
+	3bc2227a-d443-4847-9b8a-a71575d840e0	TypeError Cannot read properties of undefined (reading 'id')
+200123	20:22:40
+	74498702-130a-44d6-86da-6b03b4e42b5a	Error Cannot set headers after they are sent to the client
+200123	20:23:15
+	335b007a-872b-4b7b-9214-c842343d7127	Error Cannot set headers after they are sent to the client
+200123	20:23:51
+	d8517b6b-43e8-467f-a5ce-f9f118e02e7a	TypeError Cannot read properties of undefined (reading 'id')
+200123	20:25:03
+	1097b1e3-43a5-4be9-8c18-a069e59e2dd1	Error Cannot set headers after they are sent to the client
+200123	20:25:25
+	c1c71c49-6a7e-445a-ace3-1e1eae76e928	Error Cannot set headers after they are sent to the client
+200123	20:40:11
+	9f73fe68-a88e-45c5-aae6-5c37ccbdfd91	Error Cannot set headers after they are sent to the client
+200123	20:58:26
+	e2fdeaa0-a946-4855-a0a5-345937a85d3f	Error Cannot set headers after they are sent to the client
+200123	20:58:30
+	d69e6f5c-11bf-48c8-94d2-3e0983790dc2	Error Cannot set headers after they are sent to the client
+200123	21:10:07
+	a7044c95-49cb-4d1c-89f9-06bdb96a2185	Error Cannot set headers after they are sent to the client
+200123	21:10:49
+	870b09bf-c04a-49e2-804c-618ee17bee35	Error Cannot set headers after they are sent to the client
+200123	21:17:49
+	7c3e1e92-872f-47d0-8575-955bc463b135	Error Cannot set headers after they are sent to the client
+200123	21:18:26
+	0693652b-9ce3-48f9-8446-1d22c74072c7	Error Cannot set headers after they are sent to the client
+200123	21:18:55
+	5982ef37-8560-44a4-9b9e-0d7ee09085cb	Error Cannot set headers after they are sent to the client
+200123	21:30:01
+	100ea162-a972-4fd5-9edb-d4fca6975ada	SyntaxError Unexpected token } in JSON at position 13
+200123	21:32:33
+	1abdc084-65eb-43df-a736-6103d6bceff8	SyntaxError Unexpected token } in JSON at position 39
+230123	16:08:43
+	d33cd886-4c18-4e56-b2b3-ea55d4f09a5d	TypeError Converting circular structure to JSON
+    --> starting at object with constructor 'Query'
+    |     property '_timer' -> object with constructor 'Timer'
+    --- property '_object' closes the circle
+230123	16:09:10
+	557d1cd4-edc0-40b5-ba49-8df65a318e08	TypeError Converting circular structure to JSON
+    --> starting at object with constructor 'Query'
+    |     property '_timer' -> object with constructor 'Timer'
+    --- property '_object' closes the circle
+230123	16:09:17
+	6a6d76b1-228b-4df1-be6a-8dc52b9b7077	TypeError Converting circular structure to JSON
+    --> starting at object with constructor 'Query'
+    |     property '_timer' -> object with constructor 'Timer'
+    --- property '_object' closes the circle
+230123	16:11:00
+	a5a02ffe-5457-4ed9-8a17-4fff2476bea4	ReferenceError selectAll is not defined
+250123	17:14:44
+	16394515-0f06-4708-87ac-8a602f50c104	Error Cannot set headers after they are sent to the client
+250123	17:15:16
+	7bf255c9-b450-4c3c-bd2e-f3fa2804810c	Error Cannot set headers after they are sent to the client
+250123	17:16:16
+	05f694fb-3ac5-477d-9488-0c1fdbdeda39	Error Cannot set headers after they are sent to the client
+250123	17:18:16
+	06a90d10-1042-42da-978e-e1c90cdf9590	Error Cannot set headers after they are sent to the client
+260123	15:32:51
+	201efc55-0fc6-42cc-91ad-9a8339e25681	Error Cannot set headers after they are sent to the client
+260123	21:45:29
+	8c9d6a60-af80-4c51-a612-6c9c329edb53	ReferenceError theInputs is not defined
+260123	21:49:54
+	0b12b44d-9979-4f04-97ce-1ddc91119945	ReferenceError theInputs is not defined
+260123	21:50:09
+	bd4f079b-34b5-4fcb-9e87-706de2b7cf07	ReferenceError theInputs is not defined
+260123	21:50:22
+	bbe807fa-2a04-45f6-aff9-b35c4c8869d6	ReferenceError theInputs is not defined
+310123	23:23:50
+	0def62e4-5136-4a23-86d3-1f91be3592f2	Error Cannot set headers after they are sent to the client
+310123	23:26:39
+	3aa22c6a-5990-4a49-b5c8-02d928ecd847	Error Cannot set headers after they are sent to the client
+310123	23:27:42
+	4af44f46-5151-4b45-b60f-220f44f9bace	Error Cannot set headers after they are sent to the client
+310123	23:30:44
+	54760fe4-4dd7-4622-b670-553450dd9b6a	Error Cannot set headers after they are sent to the client
+310123	23:39:20
+	a8e018c8-5504-4d44-8fe6-d1a356d394a8	Error Cannot set headers after they are sent to the client
