@@ -73744,3 +73744,207 @@
 	547cde1e-5deb-44ca-a1e9-93bd71bdc966	OPTIONS	http://localhost:5173	/examAuth
 080223	11:36:43
 	c7d91a67-3835-4f60-9a94-06080e7b9628	POST	http://localhost:5173	/examAuth
+080223	12:46:38
+	ac03998b-a658-449e-b217-ff2d3857161e	OPTIONS	http://localhost:5173	/examAuth
+080223	12:46:38
+	0eab5a4d-99bd-473e-ab98-dbf6ff137fa7	POST	http://localhost:5173	/examAuth
+080223	12:51:22
+	8f5488f2-2681-4bb4-88da-4676fb76f269	OPTIONS	http://localhost:5173	/examAuth
+080223	12:51:22
+	616b8dff-ed47-45a2-9ca9-99bc8c2a646f	POST	http://localhost:5173	/examAuth
+080223	13:15:30
+	82b222cf-0e30-4b84-bab9-52f719273bea	OPTIONS	http://localhost:5173	/examAuth
+080223	13:15:30
+	2fdd6e46-bddf-4fe9-9a38-6ca62a1fadd3	POST	http://localhost:5173	/examAuth
+080223	13:19:44
+	b7dafc3d-c11c-46ee-be1e-c5e66984de15	OPTIONS	http://localhost:5173	/examAuth
+080223	13:19:44
+	604e64fe-dba3-44c6-beea-6b5c9ac96bbd	POST	http://localhost:5173	/examAuth
+080223	13:21:13
+	aeebc868-1d55-405c-afa8-d571d3582475	OPTIONS	http://localhost:5173	/examAuth
+080223	13:21:13
+	67843dbf-1a59-4d1e-9a7e-1620888fe724	POST	http://localhost:5173	/examAuth
+080223	13:21:48
+	5cf3e42a-2f46-46db-9c44-38547295f8aa	OPTIONS	http://localhost:5173	/examAuth
+080223	13:21:48
+	77c6eb5d-ccd9-42ab-8dc7-6f6389ba2b36	POST	http://localhost:5173	/examAuth
+080223	13:22:13
+	5d490706-1b04-4978-842f-f21940a5ad2d	OPTIONS	http://localhost:5173	/examAuth
+080223	13:22:13
+	30b8df65-6a06-41bd-818e-62e8c8e15283	POST	http://localhost:5173	/examAuth
+080223	13:42:20
+	2d9874ee-afbc-4e18-b74b-27851d28130c	OPTIONS	http://localhost:5173	/examAuth
+080223	13:42:20
+	ed6f36ea-dcc2-48ff-b2f1-52836fc4fc3d	POST	http://localhost:5173	/examAuth
+080223	13:42:56
+	84707b25-d44f-433f-8d2b-793eef2ad9d6	OPTIONS	http://localhost:5173	/examAuth
+080223	13:42:56
+	57e47f5f-993d-48fe-8baf-ffa4b77dc592	POST	http://localhost:5173	/examAuth
+080223	13:54:28
+	1aa3b966-889e-4328-ad4d-48a8a3fc22d9	OPTIONS	http://localhost:5173	/examAuth
+080223	13:54:28
+	27b1bcdd-2ec3-4d38-a936-801ced1c6e38	POST	http://localhost:5173	/examAuth
+080223	14:44:47
+	667719f7-d9be-46d1-87ce-890f48ad07b2	OPTIONS	http://localhost:5173	/examAuth
+080223	14:44:47
+	9e49a354-fdc9-4321-8384-ffc94a95d819	POST	http://localhost:5173	/examAuth
+080223	14:45:19
+	8e9025b1-25ca-4df6-81c3-ffe52971c55e	OPTIONS	http://localhost:5173	/examAuth
+080223	14:45:19
+	925909a7-60ab-4600-84ad-a7fb18ded48d	POST	http://localhost:5173	/examAuth
+080223	14:58:32
+	4b7099bf-7ce1-4564-9011-8f7812d514b5	OPTIONS	http://localhost:5173	/examAuth
+080223	14:58:32
+	ea605747-1b09-4fe6-8dd7-8bb31ec79e0b	POST	http://localhost:5173	/examAuth
+080223	15:03:24
+	20459822-9793-485d-abdf-856c567a3aff	OPTIONS	http://localhost:5173	/examAuth
+080223	15:03:24
+	e7ccd74c-07ef-48df-a24a-25e959a50d81	POST	http://localhost:5173	/examAuth
+080223	15:04:49
+	6e888c1b-8aa7-4ba5-949d-20a9b08f6e6c	OPTIONS	http://localhost:5173	/examAuth
+080223	15:04:49
+	145b1cee-2d71-4887-b682-1dc2f00c0f06	POST	http://localhost:5173	/examAuth
+080223	15:15:35
+	57a96d09-3cdf-44ca-b3ca-673518bb3caf	OPTIONS	http://localhost:5173	/examAuth
+080223	15:15:35
+	0571a2f3-5d52-40eb-9896-1ae3c9e127de	POST	http://localhost:5173	/examAuth
+080223	15:26:15
+	3849ecbf-1d5c-458c-91d9-0454e77c811a	OPTIONS	http://localhost:5173	/examAuth
+080223	15:26:15
+	b4b443fd-08df-4fd3-91e1-7bdcfbe174e6	POST	http://localhost:5173	/examAuth
+080223	15:28:48
+	f87267f4-8b0f-432b-9305-a6229273f9db	OPTIONS	http://localhost:5173	/examAuth
+080223	15:28:48
+	99e96c32-bf79-4b9b-ae10-78aa6650bf0a	POST	http://localhost:5173	/examAuth
+080223	15:30:10
+	69683630-7365-40f8-b68b-f045a906b288	OPTIONS	http://localhost:5173	/examAuth
+080223	15:30:10
+	52be29e1-fc87-483b-9f83-6ae9fa9a23c7	POST	http://localhost:5173	/examAuth
+080223	15:31:26
+	2724a6af-8cfb-45f9-9243-ab5faa7d02e1	OPTIONS	http://localhost:5173	/examAuth
+080223	15:31:26
+	89baf1ce-4080-4d27-8484-24d3b03af0f1	POST	http://localhost:5173	/examAuth
+080223	15:35:28
+	d35f4aa9-a29a-496a-94b5-27b480a4df6d	OPTIONS	http://localhost:5173	/examAuth
+080223	15:35:28
+	2f006dfd-09f7-47f1-b585-7d2589d67978	POST	http://localhost:5173	/examAuth
+080223	15:38:41
+	11492a1c-adc1-4aa6-bf10-49af84d14914	OPTIONS	http://localhost:5173	/examAuth
+080223	15:38:41
+	1431f44d-9787-49d5-b75d-6ff4a677705a	POST	http://localhost:5173	/examAuth
+080223	15:39:03
+	52e32b74-0256-4866-a3bb-b6b6502e0016	OPTIONS	http://localhost:5173	/examAuth
+080223	15:39:03
+	197c7814-41d6-441a-a0d7-ef9648e75667	POST	http://localhost:5173	/examAuth
+080223	15:40:36
+	2f29ff22-db90-4c57-b088-759e52678435	OPTIONS	http://localhost:5173	/examAuth
+080223	15:40:36
+	ecf408fa-a29c-47a3-ace4-59e3fe696b60	POST	http://localhost:5173	/examAuth
+080223	15:41:25
+	e3aaf060-0f17-4540-a27e-832754ab6627	OPTIONS	http://localhost:5173	/examAuth
+080223	15:41:25
+	2fd957a6-c814-44ef-81a7-c5cf3835a459	POST	http://localhost:5173	/examAuth
+080223	15:41:54
+	c9a1288e-9bd4-4205-a903-47c9adf9ff09	OPTIONS	http://localhost:5173	/examAuth
+080223	15:41:54
+	f6dd7d50-a6e1-4013-beeb-614c16585287	POST	http://localhost:5173	/examAuth
+080223	17:12:32
+	35ada336-49fb-4172-822b-03863b11fe42	OPTIONS	http://localhost:5173	/examAuth
+080223	17:12:32
+	8080e3bc-95f9-42e2-be50-c6504d7c24fc	POST	http://localhost:5173	/examAuth
+080223	17:13:31
+	38c1c710-f8dd-47c8-966b-b78fb71ddc39	OPTIONS	http://localhost:5173	/examAuth
+080223	17:13:31
+	f5d2c764-9da5-4eca-b8c7-3310195ad0f5	POST	http://localhost:5173	/examAuth
+080223	17:15:49
+	91409665-887d-41d9-9f75-03b9098818fd	OPTIONS	http://localhost:5173	/examAuth
+080223	17:15:49
+	6f004ca8-94f9-4973-9507-3e5a30bffe67	POST	http://localhost:5173	/examAuth
+080223	17:17:11
+	2883814c-34a4-400f-a5ca-ede552ed2ec3	OPTIONS	http://localhost:5173	/examAuth
+080223	17:17:11
+	59693e76-cf65-4aae-a194-37b09495ee91	POST	http://localhost:5173	/examAuth
+080223	17:48:04
+	0cd258e1-e286-41df-a872-0d6b19534ead	OPTIONS	http://localhost:5173	/examAuth
+080223	17:48:04
+	70a9ec13-7e86-4608-885f-6f46aa1fa46b	POST	http://localhost:5173	/examAuth
+080223	17:50:52
+	ce387ee2-8cce-449e-ad4d-258856055ba4	OPTIONS	http://localhost:5173	/adminAuth
+080223	17:50:52
+	fa091de1-e2a4-4432-81fd-7645ca475db4	POST	http://localhost:5173	/adminAuth
+080223	17:51:01
+	091e4b60-1cff-494e-a99c-5dfb3b9847db	GET	http://localhost:5173	/students/null
+080223	17:51:01
+	e9c077b3-c37b-46e2-bed1-98e05cbbc18d	GET	http://localhost:5173	/students/null
+080223	17:51:22
+	6b82045f-70e0-4a5f-a2ee-fe6a3840fefb	OPTIONS	http://localhost:5173	/examAuth
+080223	17:51:22
+	fa8e8d3b-b6cd-4c84-9fe8-8a357ecd945f	POST	http://localhost:5173	/examAuth
+080223	21:13:36
+	4c713997-46e2-4938-82d7-33a2a286470f	OPTIONS	http://localhost:5173	/examAuth
+080223	21:13:36
+	3fca03e1-b1d5-411a-8df9-f021fdd6b5ab	POST	http://localhost:5173	/examAuth
+080223	21:16:58
+	530e4844-076a-45b1-ae2c-5c4641bae2ef	OPTIONS	http://localhost:5173	/examAuth
+080223	21:16:58
+	49c125fe-c48a-4234-b774-f6f931e883a0	POST	http://localhost:5173	/examAuth
+080223	21:19:56
+	a26a3dfd-7791-4e29-98bd-3910ca863880	OPTIONS	http://localhost:5173	/examAuth
+080223	21:19:56
+	81450d0b-bad5-4146-8287-3e04f29ce94f	POST	http://localhost:5173	/examAuth
+080223	21:20:15
+	d812143e-b26e-49d3-ab5e-b05c47b639bd	OPTIONS	http://localhost:5173	/examAuth
+080223	21:20:15
+	d61ca78d-ff71-4893-9a6e-d249d0549187	POST	http://localhost:5173	/examAuth
+080223	21:22:31
+	9d55bb9b-0c18-48e0-a568-9577aa743b99	OPTIONS	http://localhost:5173	/examAuth
+080223	21:22:31
+	af8edc2d-d75f-4e0c-931a-a470b1a6df02	POST	http://localhost:5173	/examAuth
+080223	21:30:39
+	6c87f9c9-fc92-4b5c-8f97-19926ed6f800	OPTIONS	http://localhost:5173	/examAuth
+080223	21:30:39
+	8cdf945f-d620-45a5-9f3a-00a266cc5fe7	POST	http://localhost:5173	/examAuth
+080223	21:31:27
+	5cb5c3d9-8ad8-4e6b-83ab-ce300add0c41	OPTIONS	http://localhost:5173	/examAuth
+080223	21:31:27
+	d4228647-c1e4-44e7-8d72-a2816acb8898	POST	http://localhost:5173	/examAuth
+080223	21:33:36
+	556daded-1ca8-4fb4-9757-062bd2425cac	OPTIONS	http://localhost:5173	/examAuth
+080223	21:33:36
+	8171a14b-1584-42e7-bf8a-b7695b2ef027	POST	http://localhost:5173	/examAuth
+080223	21:39:28
+	1b56e11d-567d-49cb-a888-dd9f44dae792	OPTIONS	http://localhost:5173	/examAuth
+080223	21:39:28
+	f631d786-27f4-436a-b884-72eabd82a107	POST	http://localhost:5173	/examAuth
+080223	21:41:24
+	63720e46-c6f2-4601-91cb-d25e06b744ee	OPTIONS	http://localhost:5173	/examAuth
+080223	21:41:24
+	600218ee-38e9-4ce3-8b79-5233ea500420	POST	http://localhost:5173	/examAuth
+080223	21:41:59
+	c6b097bd-8d30-486f-926e-649497e8c063	OPTIONS	http://localhost:5173	/examAuth
+080223	21:41:59
+	193d5c88-bf52-4770-b184-0ffabac1e847	POST	http://localhost:5173	/examAuth
+080223	21:43:14
+	7c17cafe-6c77-4453-b75e-7b95cabe0026	OPTIONS	http://localhost:5173	/examAuth
+080223	21:43:14
+	b5ab534a-1d05-48dc-8b92-f59bdcaa9cae	POST	http://localhost:5173	/examAuth
+080223	21:43:38
+	d189d8d8-4bf6-441b-8bfa-cb5e14eeedca	OPTIONS	http://localhost:5173	/examAuth
+080223	21:43:38
+	b4d4080e-fe13-47a8-ae5c-cfb88ee81de6	POST	http://localhost:5173	/examAuth
+090223	10:47:03
+	b47eab7d-bbd4-43bf-88da-5a877176d646	OPTIONS	http://localhost:5173	/examAuth
+090223	10:47:03
+	8e7b8678-65ba-44f2-8557-a21ff2114a92	POST	http://localhost:5173	/examAuth
+090223	10:48:04
+	59a3e8d7-1773-4835-8c47-a70f32f85421	OPTIONS	http://localhost:5173	/examAuth
+090223	10:48:04
+	d02c5640-e665-4d48-b490-2bf370a63090	POST	http://localhost:5173	/examAuth
+090223	10:56:19
+	f013ee4b-29ee-4d14-b304-31cb63652fb1	OPTIONS	http://localhost:5173	/examAuth
+090223	10:56:19
+	9d6e73c8-4299-4f81-b7da-8eca1d48ac77	POST	http://localhost:5173	/examAuth
+090223	10:57:25
+	a31b85ba-ac65-4d45-b7c9-1dbc2fd87859	OPTIONS	http://localhost:5173	/examAuth
+090223	10:57:25
+	e1e34692-0d4d-43f7-aead-0c67dc8b90f0	POST	http://localhost:5173	/examAuth

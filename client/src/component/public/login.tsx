@@ -3,6 +3,8 @@ import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const LogIn = () => {
+  const milliseconds = 10000;
+  localStorage.setItem("twoHours", JSON.stringify(milliseconds));
   const userRef = useRef();
   const navigate = useNavigate();
   const [input, setInput] = useState("");

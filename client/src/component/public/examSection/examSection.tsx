@@ -1,9 +1,7 @@
-import { Outlet, NavLink, useLocation } from "react-router-dom";
-import { useContext, useEffect } from "react";
-import UserContext from "../../userContext/authContext";
+import { Outlet, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { ExamHeader } from "./examHeader";
 import SubmittedExam from "../submittedExam";
-
+import MyCountdown from "../../public/MyCoundown";
 const ExamSection = () => {
   const { state } = useLocation();
   const { user } = state;
@@ -37,9 +35,11 @@ const ExamSection = () => {
       left: isActive ? "20px" : "",
     };
   };
+
   return (
     <>
       <ExamHeader />
+      <MyCountdown user={user} />
       <div className="">
         <div className="mx-auto mb-5">
           <p className="text-center text-green-500 uppercase text-4xl pb-5">

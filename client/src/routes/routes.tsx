@@ -18,6 +18,7 @@ import RegisterAdmin from "../component/private/registerAdmin";
 import Result from "../component/private/result";
 import Admin from "../component/private/admin";
 import Home from "../component/public/Home";
+import TimeUp from "../component/public/timeUp";
 
 const Pages = () => {
   return (
@@ -25,7 +26,9 @@ const Pages = () => {
       {/* Public Section */}
       <Route path="/" element={<Home />} />
       <Route path="login" element={<LogIn />} />
+      <Route path="timeUp" element={<TimeUp />} />
 
+      {/* Components with Header */}
       <Route path="examSection" element={<ExamSection />}>
         <Route index element={<DefaultPage />} />
         <Route path="english" element={<English />} />
