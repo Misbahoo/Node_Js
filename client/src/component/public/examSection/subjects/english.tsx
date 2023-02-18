@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, InputHTMLAttributes } from "react";
 import { useLocation } from "react-router-dom";
 
 import { englishQuestions } from "../questions/englishQ";
@@ -7,25 +7,65 @@ import QuestionJumper from "./questionJumper";
 import SubmittedExam from "../../submittedExam";
 
 const English = () => {
+  const theRef = useRef();
   const { state } = useLocation();
 
   const { user } = state;
 
   const [subject, setSubject] = useState("English");
+  const [selectedValue, setSelectedValue] = useState<
+    { [key: string]: string }[]
+  >([]);
   const [input, setInputs] = useState<{ [key: string]: string }[]>([]);
   const [answersSelected, setAnswersSelected] = useState({});
   const [selected, setSelected] = useState<{ [key: string]: boolean }>({});
   const [allSelected, setAllSelected] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-
+  const [keyCode, setKeyCode] = useState("");
+  const [onKeyDownValue, setOnKeyDownValue] = useState("");
   var index1 = 0;
 
   const answers = englishQuestions.map((items, index) => items.answer);
 
-  const handleChange = (e: any) => {
+  const handleKeydown = (e: any) => {
+    e.preventDefault();
+
+    if (
+      e.code === "KeyA" ||
+      e.code === "KeyB" ||
+      e.code === "KeyC" ||
+      e.code === "KeyD"
+    ) {
+      console.log(e.code);
+      setKeyCode(e.code);
+
+      const { name, value, type } = e.target;
+      setOnKeyDownValue(value);
+      console.log(
+        "I am the value " + value + " type " + type + " and name " + name
+      );
+    }
+  };
+
+  useEffect(() => {
+    document.body.addEventListener("keydown", handleKeydown);
+    return () => {
+      document.body.removeEventListener("keydown", handleKeydown);
+    };
+  }, []);
+
+  function handleChange(event: any) {
     const numbers = /\d+/g;
 
-    const { value, name } = e.target;
+    console.log(event.target.value);
+    setSelectedValue([
+      ...selectedValue,
+      { theSelectedValue: event.target.value },
+    ]);
+    localStorage.setItem("theSelectedValue", JSON.stringify(selectedValue));
+    console.log(localStorage.getItem("theSelectedValue") as string);
+
+    const { value, name } = event.target;
     const currentQuestionNumber = name.slice(name.indexOf("englishQ"), 10);
     const currentQuestion = name.slice(name.indexOf(":") + 2);
     const currentArrayIndex = name.match(numbers)[0] - 1;
@@ -55,10 +95,8 @@ const English = () => {
       setAnswersSelected({ ...answersSelected, [name]: value });
     }
 
-    //get the input values from form and pass it to an input{} object
-
     //detect if an answer was selected
-    setSelected({ ...selected, [name]: true });
+    setSelected({ ...selected, [currentArrayIndex + 1]: true });
 
     //convert the answered object keys into an array
     const submittedKeys = Object.keys(selected);
@@ -73,7 +111,7 @@ const English = () => {
     } else {
       setAllSelected(false);
     }
-  };
+  }
 
   const submit = (e: any) => {
     e.preventDefault();
@@ -89,7 +127,7 @@ const English = () => {
   const [disablePrev, setDisablePrev] = useState(true);
 
   //use next and back keyboard arrows to move through questions
-  const KeyDownEventListener = (e: any) => {
+  const KeyDownEventListener = (e: KeyboardEvent) => {
     if (e.code == "ArrowRight") nextButton(e);
     if (e.code == "ArrowLeft") prevButton(e);
   };
@@ -148,6 +186,12 @@ const English = () => {
     }
   }
 
+  useEffect(() => {
+    document.getElementById("a0")?.focus();
+    console.log(theRef.current);
+    console.log(document.getElementById("a0"));
+  }, []);
+
   return (
     <>
       {submitted ? (
@@ -188,6 +232,9 @@ const English = () => {
                       <div className="mb-3" key={index}>
                         <label htmlFor="">a: </label>
                         <input
+                          ref={theRef}
+                          id={`a${index}`}
+                          checked={keyCode === "KeyA" ? true : false}
                           type="radio"
                           name={`englishQ${index1} : ${question.start} ${question.theWord} ${question.end}`}
                           value={item.a}
@@ -199,33 +246,39 @@ const English = () => {
 
                         <label htmlFor="">b: </label>
                         <input
+                          id={`b${index}`}
                           type="radio"
                           name={`englishQ${index1} : ${question.start} ${question.theWord} ${question.end}`}
                           value={item.b}
-                          onChange={handleChange}
+                          onChange={keyCode ? handleKeydown : handleChange}
                           disabled={submitted ? true : false}
+                          checked={keyCode === "KeyB" ? true : false}
                         />
                         <label htmlFor=""> {item.b}</label>
                         <br />
 
                         <label htmlFor="">c: </label>
                         <input
+                          id={`c${index}`}
                           type="radio"
                           name={`englishQ${index1} : ${question.start} ${question.theWord} ${question.end}`}
                           value={item.c}
                           onChange={handleChange}
                           disabled={submitted ? true : false}
+                          checked={keyCode === "KeyC" ? true : false}
                         />
                         <label htmlFor=""> {item.c}</label>
                         <br />
 
                         <label htmlFor="">d: </label>
                         <input
+                          id={`d${index}`}
                           type="radio"
                           name={`englishQ${index1} : ${question.start} ${question.theWord} ${question.end}`}
                           value={item.d}
                           onChange={handleChange}
                           disabled={submitted ? true : false}
+                          checked={keyCode === "KeyD" ? true : false}
                         />
                         <label htmlFor=""> {item.d}</label>
                       </div>

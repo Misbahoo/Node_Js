@@ -60,7 +60,7 @@ const Biology = () => {
     }
 
     //detect if an answer was selected
-    setSelected({ ...selected, [name]: true });
+    setSelected({ ...selected, [currentArrayIndex + 1]: true });
 
     //convert the answered object keys into an array
     const submittedKeys = Object.keys(selected);

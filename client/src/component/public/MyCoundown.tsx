@@ -21,7 +21,7 @@ const MyCountdown = (props: any) => {
     let theInterval = setInterval(() => {
       if (twoHours < 1000) {
         localStorage.removeItem("twoHours");
-        navigate("/timeUp");
+        navigate("/timeUp", { replace: true });
       }
       twoHours = JSON.parse(localStorage.getItem("twoHours") as string) - 1000;
       localStorage.setItem("twoHours", twoHours);
